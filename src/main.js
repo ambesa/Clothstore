@@ -2,7 +2,7 @@
 
 let shop = document.getElementById("shop");
 
-/** ////////
+/** ////////////////
  * ! Basket to hold all the selected items in the application
  * ? the getItem part is retrieving data from the local storage
  * ? if local storage is blank, basket becomes an empty array
