@@ -15,7 +15,7 @@ let basket = JSON.parse(localStorage.getItem("data")) || [];
  * ! Generates the shop with product cards composed of
  * ! images, title, price, buttons, description
  */
-
+/// functions 
 let generateShop = () => {
   return (shop.innerHTML = shopItemsData
     .map((x) => {
